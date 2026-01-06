@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Data files (large datasets)
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+data/
+dataset/
+datasets/
+downloads/
+
+# Allow small example/reference data
+!example_data.csv
+!README*.csv
+
+# Model files
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.model
+checkpoints/
+models/
+*.pth
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+config.local.py
+*_secrets.py
+
+# Scraped data
+scraped/
+cache/
+*.htm
+*.html
+
+# Selenium
+chromedriver.exe
+geckodriver.exe
+*.exe
+
+# Output
+output/
+results/
+plots/
+*.png
+*.pdf
+*.jpg
+
+# Archives
+archive/
+Archive/
+old/
+backup/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
